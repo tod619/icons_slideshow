@@ -21,11 +21,16 @@ html {
 
 .slideshow-link {
     width: 20%;
+    filter: brightness(0.1);
 }
 
 .slideshow-link:nth-child(1),
 .slideshow-link:nth-child(5) {
     transition: all 0.5s;
+}
+
+.slideshow-link:nth-child(3) {
+    transition: filter 0.5s;
 }
 
 .slideshow-link img {
@@ -35,4 +40,9 @@ html {
 .faded-out {
     opacity: 0;
     width: 0;
+}
+
+.light {
+    filter: brightness(1.5);
+    transition: filter 1.5s;
 }
