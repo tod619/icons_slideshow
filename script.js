@@ -9,7 +9,10 @@ setInterval(()=> {
         slideshow.removeChild(firstIcon)
         slideshow.appendChild(firstIcon)
 
-        firstIcon.classList.remove('faded-out')
+        setTimeout(()=> {
+            firstIcon.classList.remove('faded-out')
+        },500)
+        
     },500)
     
     

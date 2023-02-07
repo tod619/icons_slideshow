@@ -23,7 +23,8 @@ html {
     width: 20%;
 }
 
-.slideshow-link:nth-child(1) {
+.slideshow-link:nth-child(1),
+.slideshow-link:nth-child(5) {
     transition: all 0.5s;
 }
 
